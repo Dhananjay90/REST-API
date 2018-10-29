@@ -28,10 +28,15 @@ So, places category was chosen for search REST API.
 2) Install the following libraries
 	
 	pip install beautifulsoup4
+	
 	pip install bs4
+	
 	pip install Flask
+	
 	pip install Flask-JWT
+	
 	pip install lxml
+	
 	pip install Werkzeug
 	
 3) Download the files and go to REST-API folder
