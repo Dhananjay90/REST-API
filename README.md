@@ -41,7 +41,7 @@ So, places category was chosen for search REST API.
 	
 3) Download the files and go to REST-API folder
 
-4) Run  python app.py . Server runs in port 5000.
+4) Run  python app.py. Server runs in port 5000.
 
 	Output should be like below
 
@@ -63,6 +63,7 @@ So, places category was chosen for search REST API.
 	url: http://127.0.0.1:5000/auth
 	
 	Headers: 
+	
 		Authorization = application/json
 		
 		Content-Type = application/json
