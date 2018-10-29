@@ -69,13 +69,17 @@ So, places category was chosen for search REST API.
 		Content-Type = application/json
 		
 	This will return the access_token
+	
 	eg) 
+	
 	{
     "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NDA3NzcwODQsImlhdCI6MTU0MDc3Njc4NCwibmJmIjoxNTQwNzc2Nzg0LCJpZGVudGl0eSI6MX0.QuiNkHXzVu5wn9OzwbwIP1fPTOQrdXyeykL1l6P04SI"
 	}
 	
 	JWT token = value of access_token without strings
+	
 	eg:
+	
 	JWT token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NDA3NzcwODQsImlhdCI6MTU0MDc3Njc4NCwibmJmIjoxNTQwNzc2Nzg0LCJpZGVudGl0eSI6MX0.QuiNkHXzVu5wn9OzwbwIP1fPTOQrdXyeykL1l6P04SI
  
  6) Test the REST api's using Postman or curl.
