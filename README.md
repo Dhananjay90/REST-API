@@ -67,6 +67,14 @@ So, places category was chosen for search REST API.
 		Authorization = application/json
 		
 		Content-Type = application/json
+	
+	Body (Raw):
+		
+		{
+	"username": "admin",
+	"password": "admin"
+
+		}
 		
 	This will return the access_token
 	
